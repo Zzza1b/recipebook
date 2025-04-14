@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #964713;
+    text-align: center;
+}
+
+header {
+    background-color: #7a3b10;
+    color: white;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 90px;
+    width: auto;
+    margin-left: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+.user-icon img {
+    height: 90px;
+    width: auto;
+    margin-right: 20px;
+    border-radius: 100px;
+}
+
+.login-container {
+    background: rgb(233, 194, 137);
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    color: #7a3b10;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #7a3b10;
+}
+
+button {
+    background-color: #7a3b10;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #5a2d08;
+}
+
+.forgot-password {
+    margin-top: 10px;
+}
+
+.forgot-password a {
+    text-decoration: none;
+    color: #7a3b10;
+    font-size: 14px;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}

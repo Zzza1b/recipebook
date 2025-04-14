@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #964713;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #7a3b10;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 70px;
+    margin-left: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 10px 15px;
+    background-color: #5a2d08;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #3d1e05;
+}
+
+.user-icon img {
+    height: 70px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+/* Food Banner */
+.food-pic img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Food Categories Grid */
+.food-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 150px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.category {
+    background: rgb(233, 194, 137);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease;
+}
+
+.category img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.category h2 {
+    margin-top: 10px;
+    color: #333;
+}
+
+.category:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    background-color: #7a3b10;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .search-bar {
+        margin: 10px 0;
+    }
+
+    .search-bar input {
+        width: 80%;
+    }
+
+    .food-categories {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo img, .user-icon img {
+        height: 60px;
+    }
+
+    .search-bar input {
+        width: 90%;
+    }
+
+    .food-categories {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
+    }
+
+    .category {
+        padding: 10px;
+    }
+
+    .category h2 {
+        font-size: 16px;
+    }
+
+    .social-icons img {
+        width: 25px;
+        height: 25px;
+    }
+}

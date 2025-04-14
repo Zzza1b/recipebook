@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #964713;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #7a3b10;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 70px;
+    margin-left: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 10px 15px;
+    background-color: #5a2d08;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #3d1e05;
+}
+
+.user-icon img {
+    height: 70px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+
+h1 {
+    color: white;
+    margin-top: 30px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Table Styling */
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: #f3d3a0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+th, td {
+    padding: 15px 20px;
+    border: 1px solid #7a3b10;
+    text-align: left;
+    font-size: 18px;
+}
+
+th {
+    background-color: #7a3b10;
+    color: white;
+}
+
+/* Collapsible Recipe Styling */
+details {
+    cursor: pointer;
+}
+
+summary {
+    background-color: #7a3b10;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 12px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+summary:hover {
+    background-color: #5a2d08;
+}
+
+details p {
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: left;
+}
+
+/* Action Buttons */
+button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.like-btn {
+    background-color: #e86c5d;
+    color: white;
+}
+
+.save-btn {
+    background-color: #4287f5;
+    color: white;
+}
+
+button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+
+button.liked {
+    background-color: #c0392b;
+}
+
+button.saved {
+    background-color: #2e6fdb;
+}
