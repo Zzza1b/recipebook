@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BBQ Recipes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#964713] font-sans text-center text-white">
+
+  <!-- Header -->
+  <header class="bg-[#7a3b10] p-5 flex items-center justify-between flex-wrap">
+    <div class="ml-5">
+      <a href="homepage.html">
+        <img src="DESI KHANY (3).png" alt="Logo" class="h-[70px]" />
+      </a>
+    </div>
+    <div class="my-3 md:my-0">
+      <input type="text" placeholder="Search" disabled class="p-2 w-72 rounded-md border-none bg-gray-200 text-gray-500 cursor-not-allowed" />
+    </div>
+    <div class="mr-5">
+      <a href="login.html">
+        <img src="user.png" alt="User" class="h-[70px] rounded-full" />
+      </a>
+    </div>
+  </header>
+
+  <!-- Page Title -->
+  <h1 class="text-white mt-8 text-4xl font-bold">BBQ Recipes</h1>
+
+  <!-- Table -->
+  <div class="overflow-x-auto">
+    <table class="w-[90%] mx-auto mt-8 bg-[#f3d3a0] rounded-lg overflow-hidden shadow-lg border-collapse text-black">
+      <thead>
+        <tr class="bg-[#7a3b10] text-white text-left text-lg">
+          <th class="p-4 border border-[#7a3b10]">Recipe Name</th>
+          <th class="p-4 border border-[#7a3b10]">Details</th>
+          <th class="p-4 border border-[#7a3b10]">Actions</th>
+        </tr>
+      </thead>
+      <tbody class="text-left text-base">
+
+        <!-- Recipe Rows -->
+        <tr>
+          <td class="p-4 border border-[#7a3b10]">Chicken Tikka</td>
+          <td class="p-4 border border-[#7a3b10]">
+            <details class="cursor-pointer">
+              <summary class="bg-[#7a3b10] text-white rounded px-3 py-2 font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+              <p class="mt-2 p-3 bg-white/95 rounded">Ingredients: Chicken, yogurt, lemon juice, spices.</p>
+              <p class="mt-2 p-3 bg-white/95 rounded">Method: Marinate chicken in spices and yogurt, grill until tender.</p>
+            </details>
+          </td>
+          <td class="p-4 border border-[#7a3b10]">
+            <button disabled class="bg-[#e86c5d] text-white px-3 py-2 rounded mr-2 opacity-60 cursor-not-allowed">Like</button>
+            <button disabled class="bg-[#4287f5] text-white px-3 py-2 rounded opacity-60 cursor-not-allowed">Save</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="p-4 border border-[#7a3b10]">Seekh Kabab</td>
+          <td class="p-4 border border-[#7a3b10]">
+            <details class="cursor-pointer">
+              <summary class="bg-[#7a3b10] text-white rounded px-3 py-2 font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+              <p class="mt-2 p-3 bg-white/95 rounded">Ingredients: Minced meat, onions, coriander, green chilies, spices.</p>
+              <p class="mt-2 p-3 bg-white/95 rounded">Method: Mix ingredients, shape on skewers, grill or BBQ until done.</p>
+            </details>
+          </td>
+          <td class="p-4 border border-[#7a3b10]">
+            <button disabled class="bg-[#e86c5d] text-white px-3 py-2 rounded mr-2 opacity-60 cursor-not-allowed">Like</button>
+            <button disabled class="bg-[#4287f5] text-white px-3 py-2 rounded opacity-60 cursor-not-allowed">Save</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="p-4 border border-[#7a3b10]">Malai Boti</td>
+          <td class="p-4 border border-[#7a3b10]">
+            <details class="cursor-pointer">
+              <summary class="bg-[#7a3b10] text-white rounded px-3 py-2 font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+              <p class="mt-2 p-3 bg-white/95 rounded">Ingredients: Chicken, cream, cheese, green chilies, spices.</p>
+              <p class="mt-2 p-3 bg-white/95 rounded">Method: Marinate with cream and spices, grill until juicy and soft.</p>
+            </details>
+          </td>
+          <td class="p-4 border border-[#7a3b10]">
+            <button disabled class="bg-[#e86c5d] text-white px-3 py-2 rounded mr-2 opacity-60 cursor-not-allowed">Like</button>
+            <button disabled class="bg-[#4287f5] text-white px-3 py-2 rounded opacity-60 cursor-not-allowed">Save</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="p-4 border border-[#7a3b10]">Beef Boti</td>
+          <td class="p-4 border border-[#7a3b10]">
+            <details class="cursor-pointer">
+              <summary class="bg-[#7a3b10] text-white rounded px-3 py-2 font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+              <p class="mt-2 p-3 bg-white/95 rounded">Ingredients: Beef cubes, garlic paste, yogurt, spices.</p>
+              <p class="mt-2 p-3 bg-white/95 rounded">Method: Marinate beef and grill over charcoal until cooked through.</p>
+            </details>
+          </td>
+          <td class="p-4 border border-[#7a3b10]">
+            <button disabled class="bg-[#e86c5d] text-white px-3 py-2 rounded mr-2 opacity-60 cursor-not-allowed">Like</button>
+            <button disabled class="bg-[#4287f5] text-white px-3 py-2 rounded opacity-60 cursor-not-allowed">Save</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="p-4 border border-[#7a3b10]">Chapli Kabab</td>
+          <td class="p-4 border border-[#7a3b10]">
+            <details class="cursor-pointer">
+              <summary class="bg-[#7a3b10] text-white rounded px-3 py-2 font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+              <p class="mt-2 p-3 bg-white/95 rounded">Ingredients: Minced meat, crushed tomatoes, onions, coriander, spices.</p>
+              <p class="mt-2 p-3 bg-white/95 rounded">Method: Flatten meat mixture into patties and grill or fry until done.</p>
+            </details>
+          </td>
+          <td class="p-4 border border-[#7a3b10]">
+            <button disabled class="bg-[#e86c5d] text-white px-3 py-2 rounded mr-2 opacity-60 cursor-not-allowed">Like</button>
+            <button disabled class="bg-[#4287f5] text-white px-3 py-2 rounded opacity-60 cursor-not-allowed">Save</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="p-4 border border-[#7a3b10]">Reshmi Kabab</td>
+          <td class="p-4 border border-[#7a3b10]">
+            <details class="cursor-pointer">
+              <summary class="bg-[#7a3b10] text-white rounded px-3 py-2 font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+              <p class="mt-2 p-3 bg-white/95 rounded">Ingredients: Chicken mince, cream, ginger garlic, spices.</p>
+              <p class="mt-2 p-3 bg-white/95 rounded">Method: Skewer the marinated mince and grill until silky soft and cooked.</p>
+            </details>
+          </td>
+          <td class="p-4 border border-[#7a3b10]">
+            <button disabled class="bg-[#e86c5d] text-white px-3 py-2 rounded mr-2 opacity-60 cursor-not-allowed">Like</button>
+            <button disabled class="bg-[#4287f5] text-white px-3 py-2 rounded opacity-60 cursor-not-allowed">Save</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="p-4 border border-[#7a3b10]">Fish Tikka</td>
+          <td class="p-4 border border-[#7a3b10]">
+            <details class="cursor-pointer">
+              <summary class="bg-[#7a3b10] text-white rounded px-3 py-2 font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+              <p class="mt-2 p-3 bg-white/95 rounded">Ingredients: Boneless fish, lemon juice, ajwain, spices.</p>
+              <p class="mt-2 p-3 bg-white/95 rounded">Method: Marinate fish and grill on skewers until golden and flaky.</p>
+            </details>
+          </td>
+          <td class="p-4 border border-[#7a3b10]">
+            <button disabled class="bg-[#e86c5d] text-white px-3 py-2 rounded mr-2 opacity-60 cursor-not-allowed">Like</button>
+            <button disabled class="bg-[#4287f5] text-white px-3 py-2 rounded opacity-60 cursor-not-allowed">Save</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="p-4 border border-[#7a3b10]">BBQ Chicken Wings</td>
+          <td class="p-4 border border-[#7a3b10]">
+            <details class="cursor-pointer">
+              <summary class="bg-[#7a3b10] text-white rounded px-3 py-2 font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+              <p class="mt-2 p-3 bg-white/95 rounded">Ingredients: Chicken wings, BBQ sauce, garlic, pepper.</p>
+              <p class="mt-2 p-3 bg-white/95 rounded">Method: Coat wings in BBQ marinade and grill until crispy outside.</p>
+            </details>
+          </td>
+          <td class="p-4 border border-[#7a3b10]">
+            <button disabled class="bg-[#e86c5d] text-white px-3 py-2 rounded mr-2 opacity-60 cursor-not-allowed">Like</button>
+            <button disabled class="bg-[#4287f5] text-white px-3 py-2 rounded opacity-60 cursor-not-allowed">Save</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="p-4 border border-[#7a3b10]">Beef Tikka</td>
+          <td class="p-4 border border-[#7a3b10]">
+            <details class="cursor-pointer">
+              <summary class="bg-[#7a3b10] text-white rounded px-3 py-2 font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+              <p class="mt-2 p-3 bg-white/95 rounded">Ingredients: Beef cubes, mustard oil, yogurt, spices.</p>
+              <p class="mt-2 p-3 bg-white/95 rounded">Method: Marinate and grill on charcoal until soft and charred.</p>
+            </details>
+          </td>
+          <td class="p-4 border border-[#7a3b10]">
+            <button disabled class="bg-[#e86c5d] text-white px-3 py-2 rounded mr-2 opacity-60 cursor-not-allowed">Like</button>
+            <button disabled class="bg-[#4287f5] text-white px-3 py-2 rounded opacity-60 cursor-not-allowed">Save</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="p-4 border border-[#7a3b10]">BBQ Paneer Skewers</td>
+          <td class="p-4 border border-[#7a3b10]">
+            <details class="cursor-pointer">
+              <summary class="bg-[#7a3b10] text-white rounded px-3 py-2 font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+              <p class="mt-2 p-3 bg-white/95 rounded">Ingredients: Paneer cubes, capsicum, onion, BBQ marinade.</p>
+              <p class="mt-2 p-3 bg-white/95 rounded">Method: Thread on skewers and grill until veggies are tender and paneer is grilled.</p>
+            </details>
+          </td>
+          <td class="p-4 border border-[#7a3b10]">
+            <button disabled class="bg-[#e86c5d] text-white px-3 py-2 rounded mr-2 opacity-60 cursor-not-allowed">Like</button>
+            <button disabled class="bg-[#4287f5] text-white px-3 py-2 rounded opacity-60 cursor-not-allowed">Save</button>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

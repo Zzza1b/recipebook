@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Handi Recipes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#964713] font-sans text-white">
+
+  <!-- Header -->
+  <header class="bg-[#7a3b10] p-5 flex flex-wrap justify-between items-center">
+    <div class="ml-5">
+      <a href="homepage.html">
+        <img src="DESI KHANY (3).png" alt="Logo" class="h-16"/>
+      </a>
+    </div>
+    <div class="w-full sm:w-auto my-3 sm:my-0 text-center">
+      <input type="text" placeholder="Search" disabled
+        class="px-4 py-2 w-72 rounded-md border-none bg-gray-200 text-gray-700"
+      />
+    </div>
+    <div class="mr-5">
+      <a href="login.html">
+        <img src="user.png" alt="User" class="h-16 rounded-full"/>
+      </a>
+    </div>
+  </header>
+
+  <!-- Title -->
+  <h1 class="text-4xl font-bold mt-10 text-center">Handi Recipes</h1>
+
+  <!-- Recipe Table -->
+  <div class="overflow-x-auto mt-8">
+    <table class="w-11/12 mx-auto border-collapse bg-[#f3d3a0] text-black rounded-lg shadow-lg">
+      <thead>
+        <tr>
+          <th class="bg-[#7a3b10] text-white px-6 py-4 text-left text-lg">Recipe Name</th>
+          <th class="bg-[#7a3b10] text-white px-6 py-4 text-left text-lg">Details</th>
+          <th class="bg-[#7a3b10] text-white px-6 py-4 text-left text-lg">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <!-- Chicken Handi -->
+        <tr class="border border-[#7a3b10]">
+          <td class="px-6 py-4 text-lg">Chicken Handi</td>
+          <td class="px-6 py-4">
+            <details class="cursor-pointer">
+              <summary class="bg-[#7a3b10] text-white px-3 py-2 rounded font-semibold hover:bg-[#5a2d08]">Show Details</summary>
+              <div class="mt-2 bg-white text-black p-4 rounded">
+                <p><strong>Ingredients:</strong> Chicken, yogurt, cream, tomatoes, spices.</p>
+                <p><strong>Method:</strong> Cook chicken with spices and yogurt, then add cream and simmer.</p>
+              </div>
+            </details>
+          </td>
+          <td class="px-6 py-4">
+            <button class="bg-[#e86c5d] text-white px-4 py-2 rounded mr-2 cursor-not-allowed">Like</button>
+            <button class="bg-[#4287f5] text-white px-4 py-2 rounded cursor-not-allowed">Save</button>
+          </td>
+        </tr>
+
+        <!-- Paneer Handi -->
+        <tr class="border border-[#7a3b10]">
+          <td class="px-6 py-4 text-lg">Paneer Handi</td>
+          <td class="px-6 py-4">
+            <details class="cursor-pointer">
+              <summary class="bg-[#7a3b10] text-white px-3 py-2 rounded font-semibold hover:bg-[#5a2d08]">Show Details</summary>
+              <div class="mt-2 bg-white text-black p-4 rounded">
+                <p><strong>Ingredients:</strong> Paneer, tomatoes, onions, cashew paste, spices.</p>
+                <p><strong>Method:</strong> Sauté onions, add tomatoes and spices, then mix paneer and cook.</p>
+              </div>
+            </details>
+          </td>
+          <td class="px-6 py-4">
+            <button class="bg-[#e86c5d] text-white px-4 py-2 rounded mr-2 cursor-not-allowed">Like</button>
+            <button class="bg-[#4287f5] text-white px-4 py-2 rounded cursor-not-allowed">Save</button>
+          </td>
+        </tr>
+
+        <!-- Butter Handi -->
+        <tr class="border border-[#7a3b10]">
+          <td class="px-6 py-4 text-lg">Butter Handi</td>
+          <td class="px-6 py-4">
+            <details class="cursor-pointer">
+              <summary class="bg-[#7a3b10] text-white px-3 py-2 rounded font-semibold hover:bg-[#5a2d08]">Show Details</summary>
+              <div class="mt-2 bg-white text-black p-4 rounded">
+                <p><strong>Ingredients:</strong> Chicken, butter, cream, tomatoes, spices.</p>
+                <p><strong>Method:</strong> Cook chicken in butter, add tomatoes and cream, then simmer.</p>
+              </div>
+            </details>
+          </td>
+          <td class="px-6 py-4">
+            <button class="bg-[#e86c5d] text-white px-4 py-2 rounded mr-2 cursor-not-allowed">Like</button>
+            <button class="bg-[#4287f5] text-white px-4 py-2 rounded cursor-not-allowed">Save</button>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>

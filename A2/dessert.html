@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Desi Desserts Recipes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#964713] text-center font-sans">
+
+  <!-- Header -->
+  <header class="bg-[#7a3b10] text-white p-5 flex items-center justify-between flex-wrap">
+    <div class="ml-5">
+      <a href="homepage.html">
+        <img src="DESI KHANY (3).png" alt="Logo" class="h-[70px]" />
+      </a>
+    </div>
+    <div>
+      <input type="text" placeholder="Search" disabled class="p-2 w-[300px] rounded border-none" />
+    </div>
+    <div class="mr-5">
+      <a href="login.html">
+        <img src="user.png" alt="User" class="h-[70px] rounded-full" />
+      </a>
+    </div>
+  </header>
+
+  <!-- Heading -->
+  <h1 class="text-white mt-8 text-4xl font-bold">Desi Desserts Recipes</h1>
+
+  <!-- Recipes Table -->
+  <table class="w-[90%] mx-auto mt-8 border-collapse bg-[#f3d3a0] rounded-lg overflow-hidden shadow-lg text-left text-lg">
+    <thead>
+      <tr>
+        <th class="bg-[#7a3b10] text-white p-4 border border-[#7a3b10]">Recipe Name</th>
+        <th class="bg-[#7a3b10] text-white p-4 border border-[#7a3b10]">Details</th>
+        <th class="bg-[#7a3b10] text-white p-4 border border-[#7a3b10]">Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <!-- Gulab Jamun -->
+      <tr class="border border-[#7a3b10]">
+        <td class="p-4">Gulab Jamun</td>
+        <td class="p-4">
+          <details class="cursor-pointer">
+            <summary class="bg-[#7a3b10] text-white rounded px-3 py-1 inline-block font-bold hover:bg-[#5a2d08] transition">
+              Show Details
+            </summary>
+            <p class="mt-2 p-3 bg-white/95 rounded"> <strong>Ingredients:</strong> Milk powder, flour, sugar, cardamom, ghee.</p>
+            <p class="mt-2 p-3 bg-white/95 rounded"> <strong>Method:</strong> Form dough balls, deep fry and soak in sugar syrup.</p>
+          </details>
+        </td>
+        <td class="p-4">
+          <button class="bg-[#e86c5d] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Like</button>
+          <button class="bg-[#4287f5] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Save</button>
+        </td>
+      </tr>
+
+      <!-- Kheer -->
+      <tr class="border border-[#7a3b10]">
+        <td class="p-4">Kheer</td>
+        <td class="p-4">
+          <details class="cursor-pointer">
+            <summary class="bg-[#7a3b10] text-white rounded px-3 py-1 inline-block font-bold hover:bg-[#5a2d08] transition">
+              Show Details
+            </summary>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Ingredients:</strong> Rice, milk, sugar, cardamom, nuts.</p>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Method:</strong> Slow cook rice in milk with sugar and cardamom until creamy.</p>
+          </details>
+        </td>
+        <td class="p-4">
+          <button class="bg-[#e86c5d] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Like</button>
+          <button class="bg-[#4287f5] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Save</button>
+        </td>
+      </tr>
+
+      <!-- Ras Malai -->
+      <tr class="border border-[#7a3b10]">
+        <td class="p-4">Ras Malai</td>
+        <td class="p-4">
+          <details class="cursor-pointer">
+            <summary class="bg-[#7a3b10] text-white rounded px-3 py-1 inline-block font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Ingredients:</strong> Milk, paneer balls, sugar, saffron, cardamom.</p>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Method:</strong> Soak soft paneer balls in thickened, sweet saffron milk.</p>
+          </details>
+        </td>
+        <td class="p-4">
+          <button class="bg-[#e86c5d] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Like</button>
+          <button class="bg-[#4287f5] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Save</button>
+        </td>
+      </tr>
+
+      <!-- Suji Ka Halwa -->
+      <tr class="border border-[#7a3b10]">
+        <td class="p-4">Suji Ka Halwa</td>
+        <td class="p-4">
+          <details class="cursor-pointer">
+            <summary class="bg-[#7a3b10] text-white rounded px-3 py-1 inline-block font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Ingredients:</strong> Semolina, sugar, ghee, cardamom, water.</p>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Method:</strong> Roast suji in ghee, add water and sugar, cook until thickened.</p>
+          </details>
+        </td>
+        <td class="p-4">
+          <button class="bg-[#e86c5d] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Like</button>
+          <button class="bg-[#4287f5] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Save</button>
+        </td>
+      </tr>
+
+      <!-- Shahi Tukray -->
+      <tr class="border border-[#7a3b10]">
+        <td class="p-4">Shahi Tukray</td>
+        <td class="p-4">
+          <details class="cursor-pointer">
+            <summary class="bg-[#7a3b10] text-white rounded px-3 py-1 inline-block font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Ingredients:</strong> Bread slices, milk, sugar, saffron, nuts.</p>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Method:</strong> Fry bread, soak in sweet saffron milk, and garnish with nuts.</p>
+          </details>
+        </td>
+        <td class="p-4">
+          <button class="bg-[#e86c5d] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Like</button>
+          <button class="bg-[#4287f5] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Save</button>
+        </td>
+      </tr>
+
+      <!-- Gajar Ka Halwa -->
+      <tr class="border border-[#7a3b10]">
+        <td class="p-4">Gajar Ka Halwa</td>
+        <td class="p-4">
+          <details class="cursor-pointer">
+            <summary class="bg-[#7a3b10] text-white rounded px-3 py-1 inline-block font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Ingredients:</strong> Grated carrots, milk, sugar, ghee, cardamom, khoya.</p>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Method:</strong> Cook carrots in milk, add sugar and ghee, cook till soft and thick.</p>
+          </details>
+        </td>
+        <td class="p-4">
+          <button class="bg-[#e86c5d] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Like</button>
+          <button class="bg-[#4287f5] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Save</button>
+        </td>
+      </tr>
+
+      <!-- Falooda -->
+      <tr class="border border-[#7a3b10]">
+        <td class="p-4">Falooda</td>
+        <td class="p-4">
+          <details class="cursor-pointer">
+            <summary class="bg-[#7a3b10] text-white rounded px-3 py-1 inline-block font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Ingredients:</strong> Milk, falooda sev, tukmaria seeds, jelly, ice cream, rose syrup.</p>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Method:</strong> Layer all ingredients in a tall glass and serve chilled.</p>
+          </details>
+        </td>
+        <td class="p-4">
+          <button class="bg-[#e86c5d] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Like</button>
+          <button class="bg-[#4287f5] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Save</button>
+        </td>
+      </tr>
+
+      <!-- Besan Laddu -->
+      <tr class="border border-[#7a3b10]">
+        <td class="p-4">Besan Laddu</td>
+        <td class="p-4">
+          <details class="cursor-pointer">
+            <summary class="bg-[#7a3b10] text-white rounded px-3 py-1 inline-block font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Ingredients:</strong> Gram flour, sugar, ghee, cardamom.</p>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Method:</strong> Roast besan in ghee, add sugar, shape into laddus while warm.</p>
+          </details>
+        </td>
+        <td class="p-4">
+          <button class="bg-[#e86c5d] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Like</button>
+          <button class="bg-[#4287f5] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Save</button>
+        </td>
+      </tr>
+
+      <!-- Jalebi -->
+      <tr class="border border-[#7a3b10]">
+        <td class="p-4">Jalebi</td>
+        <td class="p-4">
+          <details class="cursor-pointer">
+            <summary class="bg-[#7a3b10] text-white rounded px-3 py-1 inline-block font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Ingredients:</strong> All-purpose flour, yogurt, saffron, sugar, oil.</p>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Method:</strong> Ferment batter, pipe into hot oil, dip in warm sugar syrup.</p>
+          </details>
+        </td>
+        <td class="p-4">
+          <button class="bg-[#e86c5d] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Like</button>
+          <button class="bg-[#4287f5] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Save</button>
+        </td>
+      </tr>
+
+      <!-- Firni -->
+      <tr class="border border-[#7a3b10]">
+        <td class="p-4">Firni</td>
+        <td class="p-4">
+          <details class="cursor-pointer">
+            <summary class="bg-[#7a3b10] text-white rounded px-3 py-1 inline-block font-bold hover:bg-[#5a2d08] transition">Show Details</summary>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Ingredients:</strong> Ground rice, milk, sugar, cardamom, rose water.</p>
+            <p class="mt-2 p-3 bg-white/95 rounded"><strong>Method:</strong> Cook ground rice in milk and sugar until thick. Serve chilled.</p>
+          </details>
+        </td>
+        <td class="p-4">
+          <button class="bg-[#e86c5d] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Like</button>
+          <button class="bg-[#4287f5] text-white px-3 py-2 rounded text-sm m-1 cursor-not-allowed" disabled>Save</button>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+</body>
+</html>
